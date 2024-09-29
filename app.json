@@ -100,6 +100,31 @@
     "value":"",
     "required": false
   },
+    "AUTO_REACTION": {
+      "description": "Automatically react to received messages. Set to 'on' to enable or 'off' to disable.",
+      "value": "off",
+      "required": false	  
+  },
+    "AUTO_READ_MESSAGES": {
+      "description": "Turn this 'on' if you want the bot to automatically read incoming messages. Use 'off' to disable it.",
+      "value": "off",
+      "required": false
+   },
+    "BLOCK_ALL": {
+      "description": "Turn this 'on' if you want the bot to automatically block ANYONE WHO SENDS YOU A MESSAGE. Use 'off' to disable it.",
+      "value": "off",
+      "required": false	
+   },
+    "CHAT_BOT": {
+      "description": "Set to 'on' if you want the bot to respond to user messages automatically. Use 'off' to disable auto-chatting.",
+      "value": "off",
+      "required": false	    
+  },
+    "ANTICALL": {
+      "description": "Automatically decline incoming calls. Type 'on' to activate or 'off' to deactivate.",
+      "value": "off",
+      "required": false	  
+  },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
     "value": "yes",
